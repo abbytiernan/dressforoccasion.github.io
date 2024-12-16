@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHOP MENS BIGGEST EVER SALE </title>
+    <link rel="stylesheet" type="text/css" href="jp.css">
+
+</head>
+<body>
+<script type="text/javascript">
+    window.alert('SHOP MENS SALE HERE')
+</script>
+
+    <div class="mensbanner">
+        <h2>SHOP MENS</h2>
+        <div class="mens-nav">
+            <ul>
+                <li><a href="#suits">Suits</a></li>
+                <li><a href="#ties">Ties</a></li>
+                <li><a href="#trousers">Trousers</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="h3">
+        <h1>SUITS</h1>
+   
+
+    <div id="suits" class="suits">
+
+        <button onclick="document.getElementById('suit1').src='mensuit1.jpg'">&lt;</button>
+        <img id="suit1" src="mensuit1.jpg" alt="Light Grey Mens Suit" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('suit1').src='mensuit2.jpg'">&gt;</button>  
+        <h5>Light Grey Mens Suit,</h5>
+        <p>£120</p>
+          
+
+        <button onclick="document.getElementById('suit2').src='mensuit12.jpg'">&lt;</button>
+        <img id="suit2" src="mensuit12.jpg" alt="Blue Mens Suit" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('suit2').src='mensuit13.jpg'">&gt;</button>  
+        <h5>Blue Mens Suit £120</h5>
+
+      
+        <button onclick="document.getElementById('suit3').src='menssuit12.jpg'">&lt;</button>
+        <img id="suit3" src="menssuit12.jpg" alt="Dark Brown Mens Suit" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('suit3').src='menssuit12.jpg'">&gt;</button>  
+        <h5> Dark Brown Mens suit,</h5>
+        <p>£100</p>
+</div>
+    </div>
+
+    <div class="h3">
+        <h1>TIES</h1>
+    </div>
+    <div id="ties" class="Ties">
+        
+        <button onclick="document.getElementById('Tie1').src='tie1.webp'">&lt;</button>
+        <img id="Tie1" src="tie1.webp" alt="Red Tie" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('Tie1').src='tie2.webp'">&gt;</button>  
+        <h5> Red Tie (Included in Multi Pack),</h5>
+        <p>25/£60</p>
+
+        <button onclick="document.getElementById('Tie2').src='tie3.webp'">&lt;</button>
+        <img id="Tie2" src="tie3.webp" alt="Blue Tie" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('Tie2').src='tie2.webp'">&gt;</button>  
+        <h5>Blue and White Stripped Tie (Included in Multi Pack),</h5>
+        <p>£25/£60</p>
+
+       
+        <button onclick="document.getElementById('Tie3').src='tie4.webp'">&lt;</button>
+        <img id="Tie3" src="tie4.webp" alt="Dark Red Tie" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('Tie3').src='tie5.webp'">&gt;</button>  
+        <h5>Dark Red Tie (Included in Multi Pack),</h5>
+        <p>£25/£60</p>
+
+    
+     </div>
+
+     <div class="h3">
+        <h1>TROUSERS</h1>
+        <script type="text/javascript">
+            
+        </script>
+     </div>
+
+     <div id="trousers" class="trousers">
+        
+        <button onclick="document.getElementById('Trouser1').src='trouser1.jpg'">&lt;</button>
+        <img id="Trouser1" src="trouser1.jpg" alt=" Black Trouser on man" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('Trouser1').src='trouser2.jpg'">&gt;</button>  
+        <h5> Black Trousers,</h5>
+        <p>£120</p>
+       
+    
+        <button onclick="document.getElementById('Trouser2').src='trouser3.jpg'">&lt;</button>
+        <img id="Trouser2" src="trouser3.jpg" alt="Trouser on man" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('Trouser2').src='trouser4.jpg'">&gt;</button> 
+        <h5> Full Length Trousers,</h5>
+        <p>£120</p>
+
+       
+        <button onclick="document.getElementById('Trouser3').src='trouser5.jpg'">&lt;</button>
+        <img id="Trouser3" src="trouser5.jpg" alt="Trouser on men" style="width:300px; display: inline-block;">
+        <button onclick="document.getElementById('Trouser3').src='trouser6.jpg'">&gt;</button> 
+        <h5> Cropped Trousers,</h5>
+        <p>£130</p>
+    
+     </div>
+     <div class="api">
+     <h1>EVERYONE CAN LOOK SYTLEISH!</h1>
+
+    <script type="text/javascript">
+        fetch('https://api.giphy.com/v1/gifs/translate?api_key=dQBI7MY96Xms2TiLPEoE9e7HS8iFISLZ&s=suit')
+            .then(response => response.json())
+            .then(data => {
+                const gifUrl = data.data.images.original.url;
+                document.body.innerHTML += `<img src="${gifUrl}" alt="GIF" style="width: 500px;">`;
+            })
+            .catch(error => {
+                console.error('Error fetching the GIF:', error);
+            });
+    </script>
+</div>
+</body>
+</html>
