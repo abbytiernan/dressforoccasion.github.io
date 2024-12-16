@@ -1,0 +1,304 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.banner{
+	width: 100%;
+	height: 100%;
+	background-image: url(backround.jpg);
+	background-size: cover;
+}
+.nav{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: whitesmoke;
+	background-size: cover;
+	
+}
+.nav ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.nav ul li{
+	color: black;
+	text-transform: uppercase;
+
+}
+.nav a{
+	color: black;
+}
+.homepage{
+	width: 100%;
+	height: 100vh;
+	
+}
+.homepage{
+	text-align: center;
+    color: black;
+    margin-top: 30%; 
+
+}
+.homepage h1{
+	font-size: 5rem; 
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+.homepage button{
+	background-color: whitesmoke;
+	color: black;
+	font-size: 1.5rem;
+	border: thin;
+	border-color: black;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+.demo{
+	color: red;
+}
+.AboutUs{
+	background-image: url(backround2.webp);
+	color: black;
+	width: 100%;
+	height: 100vh;
+	
+}
+.AboutUs h1{
+	background-color: lightgrey;
+	color: black;
+	font-size: 4rem;
+	
+	
+}
+.AboutUs p{
+	text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+.en{
+	font-size: 4rem;
+	background-color: lightgrey;
+}
+.voice{
+	text-align: center;
+}
+.shopshop{
+	align-items: center;
+	text-align: center;
+	background-image: url(backround2.webp);
+}
+.mensbanner{
+	width: 100%;
+	height: 100%;
+	background-image: url(mens.jpg);
+	background-size: cover;
+}
+.mens-nav{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-size: cover;
+}
+.mens-nav ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.mens-nav ul li{
+	color: black;
+	text-transform: uppercase;
+}
+.mens-nav a{
+	color: black;
+}
+.mensbanner h2{
+	font-size: 5rem;
+}
+.h3{
+	background-color: whitesmoke;
+}
+.suits p{
+	color: red;
+}
+.Ties p{
+	color: red;
+}
+.trousers p{
+	color: red;
+}
+.suits {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: lightgrey;
+
+}
+.suits{
+	display: flex;
+	align-items: center;
+	background-color: lightgrey;
+}
+.suits{
+	display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+}
+.Ties {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: lightgrey;
+}
+.Ties{
+	display: flex;
+	align-items: center;
+	background-color: lightgrey;
+}
+.Ties{
+	display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background: lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    gap: 10px;
+}
+.trousers {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: lightgrey;
+}
+.trousers{
+	display: flex;
+	align-items: center;
+	background-color: lightgrey;
+}
+.trousers{
+	display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background: lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    gap: 10px;
+}
+.banner-wom{
+	width: 100%;
+	height: 100%;
+	background-image: url(womenban.jpg);
+	background-size: cover;
+}
+.womens-nav ul{
+	display: flex;
+	margin: 0 20px;
+}
+.womens-nav ul li{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	background-size: cover;
+}
+.womens-nav a{
+	color: black;
+}
+.banner-wom h1{
+	font-size: 8rem;
+}
+
+.video{
+	width: 100%; 
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.weddingdress h5{
+	color: red;
+}
+.heading{
+	font-size: 4rem;
+	color: lightpink;
+	background-color: whitesmoke;
+}
+.weddingdress{
+	display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: lightpink;
+}
+.weddingdress{
+	display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+}
+.contact{
+	background-color: lightgrey;
+}
+.form{
+	background-image: url(womenban.jpg);
+}
+.contact1{
+	background-color: lightpink;
+	font-size: 40px;
+}
+.logos{
+	text-align: center;
+	background-color: lightgrey;
+}
+.our-team{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	background-image: url(womenban.jpg);
+}
+.our-team1{
+	text-align: center;
+
+}
+.contact3{
+	text-align: center;
+	background-color: lightgrey;
+}
+.conhead{
+	text-align: center;
+	font-size: 20px;
+	background-color: lightgrey;
+}
+.our-team1{
+	background-color: whitesmoke;
+
+}
+.api{
+	background-color: lightgrey;
+}
+
+
+

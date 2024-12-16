@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress for Occasion - SHOP OUR SALE!</title>
+    <link rel="stylesheet" type="text/css" href="jp.css">
+</head>
+<body>
+	<div class="contact">
+        <h1>SIGN UP TO OUR NEWS LETTER</h1>
+        <p>GET OUR EXCULSIVE DEALS AND DISCOUNTS!</p>
+</div>
+  <div class="form">
+    <form id="forms" onsubmit="return validateForm()">
+        <label for="Fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required>
+<br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required>
+<br>
+        <label for="Email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+<br>
+        <input type="checkbox" name="Terms-and-conditions" value="on"> Terms and Conditions
+<br>
+        <input type="submit" name="submit" value="Submit" required>
+
+    </form>
+<script type="text/javascript">
+	function validateForm() {
+		alert("Form submitted successfully!");
+	}
+</script>
+</div>
+	<div class="banner">
+		<div class="nav">
+			<ul>
+				<li><a href="#homepage">home</a></li>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li><a href="mens.html">Mens</a></li>
+				<li><a href="women.html">Womens</a></li>
+				<li><a href="contact.html">FIND US</a></li>
+			</ul>
+        </div>
+           <div id="homepage" class="homepage">
+           <h1> Dress for Occasion </h1>
+           <button onclick="startCountdown()">Click For Countdown On Our sale</button>
+
+           <p id="demo" class="demo"></p>
+
+           <script>
+           	function startCountdown() {
+            const daysRemaining = 30;
+            document.getElementById("demo").innerHTML = `${daysRemaining} days remaining`;
+           }
+           </script>
+
+  </div>
+  <div class="logos">
+  	<h1>FOLLOW US ON;</h1>
+    <img src="logo1.png">
+    <img src="logo2.png">
+    <img src="logo3.png">
+    <img src="logo4.png">
+    <img src="logo5.png">
+</div>
+</body>
+</body>
+</html>
